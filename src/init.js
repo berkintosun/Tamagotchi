@@ -1,15 +1,14 @@
-import gameState from "./gameState";
-import {TICK_RATE} from "./constants";
+import gameState, { handleUserAction } from "./gameState";
+import { TICK_RATE } from "./constants";
 import initButtons from "./buttons";
-async function init(){
-  console.log('game starting')
-
-  initButtons(gameState.handleUserAction);
+async function init() {
+  console.log("game starting");
   let nextTimeToTick = Date.now();
+  initButtons(handleUserAction);
 
-  function nextAnimationFrame(){
+  function nextAnimationFrame() {
     const now = Date.now();
-    if(nextTimeToTick <= now){
+    if (nextTimeToTick <= now) {
       gameState.tick(); // personal clock ticker
       nextTimeToTick = now + TICK_RATE;
     }
