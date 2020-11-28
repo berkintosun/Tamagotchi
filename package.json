@@ -24,6 +24,9 @@
     "url": "https://github.com/berkintosun/Tamagotchi/issues"
   },
   "homepage": "https://github.com/berkintosun/Tamagotchi#readme",
+  "browserslist":[
+    "last 10 chrome versions"
+  ],
   "devDependencies": {
     "eslint": "^7.14.0",
     "eslint-config-prettier": "^6.15.0",
