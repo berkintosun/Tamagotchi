@@ -1,0 +1,34 @@
+{
+  "name": "tamagotchi",
+  "version": "0.0.1",
+  "description": "Implementation of Tamagotchi game on web browser",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berkintosun/Tamagotchi.git"
+  },
+  "keywords": [
+    "Tamagotchi",
+    "Virtual",
+    "pet",
+    "Browser",
+    "game"
+  ],
+  "author": "Berkin Tosun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berkintosun/Tamagotchi/issues"
+  },
+  "homepage": "https://github.com/berkintosun/Tamagotchi#readme",
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.2.0"
+  }
+}
